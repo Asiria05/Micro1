@@ -1,5 +1,5 @@
 package mx.petcare.mascotas.petcareAPI.controller;
-/*
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
@@ -95,4 +95,3 @@ public class PetController {
         return new ResponseEntity<>("Pet deleted successfully", HttpStatus.OK);
     }
 }
-*/

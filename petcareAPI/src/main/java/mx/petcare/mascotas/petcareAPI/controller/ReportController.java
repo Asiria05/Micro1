@@ -1,4 +1,4 @@
-package mx.petcare.mascotas.petcareAPI.controller;/*
+package mx.petcare.mascotas.petcareAPI.controller;
 import mx.petcare.mascotas.petcareAPI.model.Report;
 import mx.petcare.mascotas.petcareAPI.service.ReportService;
 import org.springframework.http.ResponseEntity;
@@ -61,4 +61,3 @@ public class ReportController {
         return ResponseEntity.noContent().build();
     }
 }
-*/

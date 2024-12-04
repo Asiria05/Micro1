@@ -1,5 +1,5 @@
 package mx.petcare.mascotas.petcareAPI.controller;
-/*
+
 import java.util.List;
 import java.util.NoSuchElementException;
 
@@ -113,4 +113,3 @@ public class UserController {
         return ResponseEntity.ok(user);
     }
 }
-*/

@@ -1,5 +1,5 @@
 package mx.petcare.mascotas.petcareAPI.controller;
-
+/*
 import java.util.List;
 import java.util.NoSuchElementException;
 
@@ -41,17 +41,7 @@ public class ShareTipController {
     @Operation(summary = "Get all shared tips with pagination")
     @ApiResponse(responseCode = "200", description = "List all shared tips with pagination", content = {
     @Content(mediaType = "application/json", array = @ArraySchema(schema = @Schema(implementation = ShareTip.class))) })
-    /*
-     * @GetMapping(value = "pagination", params = {"page","pagesize"})
-     * public List<ShareTip> getAllPagination(@RequestParam(value = "page",
-     * defaultValue = "0", required = false)int page,
-     * 
-     * @RequestParam(value = "pageSize", defaultValue = "5", required = false)int
-     * pageSize){
-     * List<ShareTip> shareTip = service.getAllPagination(page, pageSize);
-     * return shareTip;
-     * }
-     */
+  
      @GetMapping(value = "/pagination", params = { "page", "pagesize" })
     public List<ShareTip> getAllPagination(
             @RequestParam(value = "page", defaultValue = "0") int page,
@@ -59,10 +49,6 @@ public class ShareTipController {
         return service.getAllPagination(page, pageSize);
     }
                                             
-    //public Page<ShareTip> getAll(Pageable pageable) {
-      //  return service.getAll(pageable);
-
-
     @Operation(summary = "Get a specific shared tip by ID")
     @ApiResponse(responseCode = "200", description = "Found the share tip", content = {
             @Content(mediaType = "application/json", schema = @Schema(implementation = ShareTip.class)) })
@@ -108,3 +94,4 @@ public class ShareTipController {
         return ResponseEntity.noContent().build();
     }
 }
+*/
